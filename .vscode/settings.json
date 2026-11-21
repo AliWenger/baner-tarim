@@ -1,0 +1,16 @@
+{
+  // Bu klasörün üst dizininde (kullanıcı klasörü) bir git deposu var;
+  // VS Code'un onu bu projeyle karıştırmaması için:
+  "git.openRepositoryInParentFolders": "never",
+
+  // Tailwind CSS v4 sözdizimi (@theme vb.) için doğru dil ve otomatik tamamlama
+  "files.associations": { "*.css": "tailwindcss" },
+  "editor.quickSuggestions": { "strings": "on" },
+  "tailwindCSS.experimental.classRegex": [["cn\(([^)]*)\)", "[\"'`]([^\"'`]*)[\"'`]"]],
+
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "files.exclude": { "**/.next": true },
+  "search.exclude": { "**/.next": true, "**/node_modules": true },
+  "typescript.preferences.importModuleSpecifier": "non-relative"
+}
